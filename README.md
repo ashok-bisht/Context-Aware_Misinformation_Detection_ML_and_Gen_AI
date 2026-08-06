@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fake News Detector — Streamlit App (100% Free Tier)
 
 Three tabs, all backed by S3 so nothing depends on local disk:
@@ -94,3 +95,7 @@ fresh each session.
 - Groq model `llama-3.1-8b-instant` is fast and free-tier friendly; swap for a
   larger Groq-hosted model in the sidebar if you want stronger explanations at
   the cost of speed.
+=======
+# -Context-Aware_Misinformation_Detection_Using_ML_Gen_AI
+ Context-Aware Misinformation Detection using ML and Gen AI Architecture
+>>>>>>> 72ea8f2a9acb423cf575a26ac7ad7d780f5899c0
