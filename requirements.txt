@@ -1,0 +1,8 @@
+streamlit>=1.36
+boto3>=1.34
+scikit-learn>=1.4
+pandas>=2.2
+plotly>=5.22
+groq>=0.11
+nltk>=3.9
+sentence-transformers

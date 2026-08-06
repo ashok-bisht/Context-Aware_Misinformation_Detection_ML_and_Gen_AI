@@ -1,0 +1,7 @@
+text,source,verdict
+"Claims that a viral video shows a natural disaster have often been traced back to unrelated footage from a different country or an earlier event.",Example Fact-Check Org,Misleading
+"Health claims that a single food or supplement cures a serious disease are almost always unsupported by peer-reviewed clinical evidence.",Example Fact-Check Org,False
+"Statistics shared without a named source, dataset, or methodology are a common marker of fabricated or exaggerated claims.",Example Fact-Check Org,Unverified
+"Quotes attributed to public figures that do not appear in any official transcript, interview, or press release are frequently fabricated.",Example Fact-Check Org,False
+"Claims describing a breaking event with no coverage from any established news outlet after several hours are often premature or false.",Example Fact-Check Org,Unverified
+"Headlines using urgent, emotionally charged language ('SHOCKING', 'THEY DON'T WANT YOU TO KNOW') are a common pattern in low-credibility content designed to drive clicks over accuracy.",Example Fact-Check Org,Pattern Note
