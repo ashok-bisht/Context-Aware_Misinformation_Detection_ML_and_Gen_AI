@@ -3,7 +3,7 @@
 
 Three tabs, all backed by S3 so nothing depends on local disk:
 
-1. **Detect** — pulls `tfidf_vectorizer.pkl` and `naive_bayes_model.pkl` from S3,
+1. **Detect** — pulls `tfidf_vectorizer.pkl` and `XGBoost` from S3,
    vectorizes the pasted text, and classifies it. Works with either a binary
    TRUE/FALSE model or the full 6-class LIAR labels (true / mostly-true /
    half-true / barely-true / false / pants-fire) — whatever the model was
@@ -15,17 +15,6 @@ Three tabs, all backed by S3 so nothing depends on local disk:
 3. **Dashboard** — an optional embedded **Tableau Public** view (free to publish
    to), plus native Plotly charts built from a prediction log stored in S3.
 
-## Why everything is free
-
-| Piece | Free option used | Notes |
-|---|---|---|
-| Model hosting | S3 (existing bucket) | Free tier: 5GB storage, 20k GET/mo for 12 months |
-| Prediction log storage | S3 | Same bucket, new `logs/` prefix |
-| RAG knowledge base | S3 | Same bucket, new `knowledge-base/` prefix |
-| Sentiment analysis | NLTK VADER | Fully local, no API, no cost, downloads a ~130KB lexicon once |
-| LLM explanation | Groq | Free API key at console.groq.com, no credit card |
-| Dashboard | Tableau Public (optional) | Free to publish, **but published views are public to anyone with the link** |
-| App hosting | Streamlit Community Cloud (suggested) | Free tier; this is exactly why logs/KB live in S3 instead of local disk |
 
 ## Setup
 
